@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Form Kuisioner Kesehatan</title>
+</head>
+<body>
+  <h1>Form Kuisioner Kesehatan</h1>
+  <form action="proses.php" method="POST">
+
+    <!-- Nama -->
+    <label for="nama">Nama Lengkap:</label><br>
+    <input type="text" id="nama" name="nama" required><br><br>
+
+    <!-- Pertanyaan 1 -->
+    <p>1. Seberapa sering Anda mengkonsumsi makanan tinggi garam?</p>
+    <input type="radio" id="garam1" name="garam" value="1" required>
+    <label for="garam1">1</label><br>
+    <input type="radio" id="garam2" name="garam" value="2">
+    <label for="garam2">2</label><br>
+    <input type="radio" id="garam3" name="garam" value="3">
+    <label for="garam3">3</label><br>
+    <input type="radio" id="garam4" name="garam" value="4">
+    <label for="garam4">4</label><br><br>
+
+    <!-- Pertanyaan 2 -->
+    <p>2. Berapa kali Anda melakukan aktivitas fisik (olahraga) dalam seminggu?</p>
+    <input type="radio" id="olahraga1" name="olahraga" value="1" required>
+    <label for="olahraga1">1</label><br>
+    <input type="radio" id="olahraga2" name="olahraga" value="2">
+    <label for="olahraga2">2</label><br>
+    <input type="radio" id="olahraga3" name="olahraga" value="3">
+    <label for="olahraga3">3</label><br>
+    <input type="radio" id="olahraga4" name="olahraga" value="4">
+    <label for="olahraga4">4</label><br><br>
+
+    <!-- Pertanyaan 3 -->
+    <p>3. Apakah Anda sering mengalami stres berlebihan atau cemas?</p>
+    <input type="radio" id="stres1" name="stres" value="1" required>
+    <label for="stres1">1</label><br>
+    <input type="radio" id="stres2" name="stres" value="2">
+    <label for="stres2">2</label><br>
+    <input type="radio" id="stres3" name="stres" value="3">
+    <label for="stres3">3</label><br>
+    <input type="radio" id="stres4" name="stres" value="4">
+    <label for="stres4">4</label><br><br>
+
+    <!-- Pertanyaan 4 -->
+    <p>4. Apakah ada riwayat hipertensi dalam keluarga Anda?</p>
+    <input type="radio" id="riwayat1" name="riwayat" value="1" required>
+    <label for="riwayat1">1 (Ya)</label><br>
+    <input type="radio" id="riwayat2" name="riwayat" value="2">
+    <label for="riwayat2">2 (Tidak)</label><br><br>
+
+    <!-- Pertanyaan 5 -->
+    <p>5. Apakah Anda merokok?</p>
+    <input type="radio" id="rokok1" name="rokok" value="1" required>
+    <label for="rokok1">1</label><br>
+    <input type="radio" id="rokok2" name="rokok" value="2">
+    <label for="rokok2">2</label><br>
+    <input type="radio" id="rokok3" name="rokok" value="3">
+    <label for="rokok3">3</label><br>
+    <input type="radio" id="rokok4" name="rokok" value="4">
+    <label for="rokok4">4</label><br><br>
+
+    <input type="submit" value="Kirim">
+  </form>
+</body>
+</html>
